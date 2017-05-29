@@ -1,5 +1,0 @@
-	
-
-<!-- footer end -->
-</body>
-</html> 

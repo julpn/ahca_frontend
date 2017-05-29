@@ -22,23 +22,6 @@
 	<script src="scripts.js"></script>
 	
 	
-	<!--facebook -->
-	<meta property="fb:admins" content="556781694" />
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="Jason Chaffetz Kills Constituents" />
-	<meta property="og:title" content="Congressman Jason Chaffetz voted to repeal the Affordable Care Act" />
-	<meta property="og:image" content="/images/share_image.jpg"/>
-	<meta property="og:description" content="Within his district alonge, Congressman Chaffetz' vote will cost about 900 lives by 2026 and cause 14,744 to lose healthcare coverage." />
-	<meta property="og:url" content="http://jasonchaffetz.killsconsituents.com" />
-	
-	<!--twitter -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Bernie or Hillary? Find out the critical differences.">
-	<meta name="twitter:description" content="Take our quiz and find out how much you match each candidate's past record and current platform. You might be surprised by what we've uncovered.">
-	<meta name="twitter:image" content="http://bernievshillary.org/images/bernievshillary-share_image-twitter.jpg">
-	
-	
-	
 
 </head>
 
@@ -55,11 +38,13 @@
 		
 			<nav>
 	
+					<div><a href="about">About</a></div>
+			
 					
 					<div><a href="take_action">Take Action</a></div>
 					
 					
-					<div class="share">Share</div>
+					<div><a href="share">Share</a></div>
 							
 					
 			</nav>
@@ -185,7 +170,9 @@
 		<!--left column start-->
 		<div class="left_column">
 		
-			<div class="headline">About this site</div>
+			<div class="headline">Constituents speak out</div>
+			
+			<div class="button">ADD YOUR STORY</div>
 		
 		</div>
 		<!--left column END-->
@@ -197,11 +184,34 @@
 			<!--written testimonial-->
 			<div class="testimonial written">
 				
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt u</p>
+				“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut ”
+
+
+				<div class="name">Mary Kate</div>
+				<div class="location">Salt Lake City</div>
 				
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt u</p>
+			</div>
+			
+			<!--video testimonial-->	
+			<div class="testimonial video">
 				
-			</div>	
+				<div class='embed-container'><iframe src='https://www.youtube.com/embed/8L-FLu8v9_4?showinfo=0' frameborder='0' allowfullscreen></iframe></div>	
+				
+			</div>
+			
+			
+						<!--written testimonial-->
+			<div class="testimonial written">
+				
+				“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut ”
+
+
+				<div class="name">Mary Kate</div>
+				<div class="location">Salt Lake City</div>
+				
+			</div>
+			
+			
 
 			
 		</div></div>
