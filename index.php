@@ -25,16 +25,16 @@
 	<!--facebook -->
 	<meta property="fb:admins" content="556781694" />
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="Jason Chaffetz Kills Constituents" />
+	<meta property="og:site_name" content="Congressman Jason Chaffetz Kills Constituents" />
 	<meta property="og:title" content="Congressman Jason Chaffetz voted to repeal the Affordable Care Act" />
-	<meta property="og:image" content="/images/share_image.jpg"/>
-	<meta property="og:description" content="Within his district alonge, Congressman Chaffetz' vote will cost about 900 lives by 2026 and cause 14,744 to lose healthcare coverage." />
+	<meta property="og:image" content="http://bernievshillary.org/images/bernievshillary-share_image-twitter.jpg"/>
+	<meta property="og:description" content="Within his district alone, Congressman Chaffetz' vote will cost about 900 lives by 2026 and cause 14,744 to lose healthcare coverage." />
 	<meta property="og:url" content="http://jasonchaffetz.killsconsituents.com" />
 	
 	<!--twitter -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Bernie or Hillary? Find out the critical differences.">
-	<meta name="twitter:description" content="Take our quiz and find out how much you match each candidate's past record and current platform. You might be surprised by what we've uncovered.">
+	<meta name="twitter:title" content="Congressman Jason Chaffetz Voted to Kill 854 of His Constituents">
+	<meta name="twitter:description" content="Within his district alone, Congressman Chaffetz' vote will cost about 900 lives by 2026 and cause 14,744 to lose healthcare coverage.">
 	<meta name="twitter:image" content="http://bernievshillary.org/images/bernievshillary-share_image-twitter.jpg">
 	
 	
@@ -220,8 +220,8 @@
 		
 		<img src="images/close_button.png" alt="close_button" class="close_button">
 		
-		<a href="facebook share"><div class="button">Share on Facebook</div></a>
-		<a href="twitter share"><div class="button">Share on Twitter</div></a>
+		<a href="https://www.facebook.com/sharer/sharer.php?u=http://jasonchaffetz.killsconstituents.com"><div class="button">Share on Facebook</div></a>
+		<a href="https://twitter.com/home?status=Congressman%20%40jasonchaffetz%20voted%20to%20kill%20498%20of%20his%20constituents%20by%202026%2C%20by%20repealing%20%23ACA%20(according%20to%20%40USCBO)%20pic.twitter.com/4gwVgJUG0i""><div class="button">Share on Twitter</div></a>
 		
 		<form>
 			<div class="title">Get updates:</div>
