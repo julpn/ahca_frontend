@@ -20,6 +20,76 @@
   cursor: pointer;
   z-index: 2; }
 
+.find_page {
+  background-color: black;
+  background-image: url(images/home-lined-background.png);
+  background-size: 13px 10px;
+  color: white; }
+  .find_page .central_area {
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    text-align: center;
+    max-width: 650px;
+    width: 90%; }
+  .find_page img {
+    width: 65px;
+    margin-bottom: 15px; }
+  .find_page .introduction {
+    font-size: 22px;
+    margin-bottom: 35px; }
+    .find_page .introduction b {
+      color: #ffde19;
+      font-weight: 900; }
+  .find_page .current_location {
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-decoration: underline;
+    display: inline-block; }
+  .find_page form {
+    background: #f96643;
+    padding: 50px; }
+    .find_page form .explain {
+      font-size: 25px;
+      line-height: 1.2;
+      margin-bottom: 25px; }
+    .find_page form input {
+      border: none;
+      height: 44px;
+      padding: 9px;
+      margin-bottom: 20px; }
+    .find_page form input[type="text"] {
+      backface: black;
+      margin-right: 5px;
+      color: black;
+      font-size: 17px;
+      width: calc(100% - 80px);
+      vertical-align: text-bottom; }
+    .find_page form input[type="text"]:focus {
+      background: #ffde19; }
+    .find_page form input[type="submit"] {
+      background: #ffde19;
+      font-family: "Tungsten A", "Tungsten B";
+      color: black;
+      font-size: 37px;
+      line-height: .7;
+      vertical-align: text-bottom;
+      cursor: pointer; }
+    .find_page form input[type="submit"]:hover {
+      color: white;
+      background: black; }
+  .find_page .desktop nav {
+    margin-left: 50px; }
+    .find_page .desktop nav div:hover {
+      color: white; }
+    .find_page .desktop nav div {
+      border-color: black; }
+
 .popup {
   display: none;
   position: fixed;
@@ -429,7 +499,7 @@ button {
   color: black; }
 
 @media only screen and (max-width: 1200px) {
-  .desktop nav {
+  .desktop nav, .find_page .desktop nav {
     margin: auto; }
   .top_area {
     text-align: center; }
@@ -518,7 +588,24 @@ button {
     .popup .button {
       font-size: 10vw; }
     .popup input[type="text"] {
-      width: 100%; } }
+      width: 100%; }
+  .find_page .central_area {
+    position: relative;
+    transform: none;
+    left: auto;
+    top: auto;
+    margin: 10px auto 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+  .find_page .introduction {
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .find_page form {
+    padding: 25px; }
+    .find_page form .explain {
+      font-size: 19px; } }
 
 @media only screen and (min-width: 767px) {
   .desktop_off {

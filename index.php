@@ -27,7 +27,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Congressman Jason Chaffetz Kills Constituents" />
 	<meta property="og:title" content="Congressman Jason Chaffetz voted to repeal the Affordable Care Act" />
-	<meta property="og:image" content="http://bernievshillary.org/images/bernievshillary-share_image-twitter.jpg"/>
+	<meta property="og:image" content="/images/facebook_share.jpg"/>
 	<meta property="og:description" content="Within his district alone, Congressman Chaffetz' vote will cost about 900 lives by 2026 and cause 14,744 to lose healthcare coverage." />
 	<meta property="og:url" content="http://jasonchaffetz.killsconsituents.com" />
 	
@@ -35,7 +35,7 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Congressman Jason Chaffetz Voted to Kill 854 of His Constituents">
 	<meta name="twitter:description" content="Within his district alone, Congressman Chaffetz' vote will cost about 900 lives by 2026 and cause 14,744 to lose healthcare coverage.">
-	<meta name="twitter:image" content="http://bernievshillary.org/images/bernievshillary-share_image-twitter.jpg">
+	<meta name="twitter:image" content="http://killsconstituents.com/images/twitter_share.jpg">
 	
 	
 	
@@ -135,7 +135,7 @@
 	
 					<div class="label">
 						
-						<p>Avg. cost increase per 64-year-old</p>
+						<p>Avg. premium with pre-existing condition</p>
 						<img src="images/icon-coverage_loss.png" />
 						
 					</div>

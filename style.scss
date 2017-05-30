@@ -110,6 +110,121 @@ $salmon: #f96643;
 }
 
 
+// FIND PAGE
+
+.find_page {
+	background-color: black;
+    background-image: url(images/home-lined-background.png);
+    background-size: 13px 10px;
+	color: white;
+	
+	.central_area {
+		@include absolute_center();
+		text-align: center;
+		max-width: 650px;
+		width: 90%;
+	}
+	
+	.desktop {
+		
+	}
+
+	
+	img {
+		width: 65px;
+		margin-bottom: 15px;
+	}
+	
+	.introduction {
+		font-size: 22px;
+		margin-bottom: 35px;
+		
+		b {
+			color: $yellow;
+			font-weight: 900;
+		}
+		
+	}
+	
+	.current_location {
+		font-size: 1.4rem;
+		font-weight: 900;
+		text-decoration: underline;
+		display: inline-block;
+	}
+	
+	
+	form {
+		background: $salmon;
+		padding: 50px;
+	
+		
+		.explain {
+			font-size: 25px;
+			line-height: 1.2;
+			margin-bottom: 25px;
+		}
+		
+		input {
+			border: none;
+			height: 44px;
+			padding: 9px;
+			margin-bottom: 20px;
+		}
+		
+		input[type="text"] {
+			backface: black;
+			margin-right: 5px;
+			color: black;
+			font-size: 17px;
+			width: calc(100% - 80px);
+			vertical-align: text-bottom;
+		}
+		
+		input[type="text"]:focus {
+			background: $yellow;
+		}
+		
+		
+		input[type="submit"] {
+			background: $yellow;
+			font-family: $tungsten;
+			color: black;
+			font-size: 37px;
+			line-height: .7;
+			vertical-align: text-bottom;
+			cursor: pointer;
+		}
+ 		
+ 		input[type="submit"]:hover {
+	 		color: white;
+	 		background: black;
+ 		}
+ 		
+ 		
+	}
+	
+	.desktop nav {
+		
+		margin-left: 50px;
+		
+		div:hover {
+			color: white;
+		}
+		
+		div {
+			border-color: black;
+		}
+	}
+	
+	
+	
+	
+}
+
+
+
+
 // share and email popup
 
 .popup {
@@ -191,6 +306,10 @@ $salmon: #f96643;
 	}
 	
 }
+
+
+
+
 
 
 
@@ -766,7 +885,7 @@ button {
 //smaller desktop
 @media only screen and (max-width: 1200px) {
 	
-	.desktop nav {
+	.desktop nav, .find_page .desktop nav {
 		margin: auto;
 	}
 	
@@ -995,7 +1114,36 @@ $standard_margin_horizontal: 30px;
 		
 	}
 		
+	.find_page {
+		
+		.central_area {
+			position: relative;
+			transform: none;
+			left: auto;
+			top: auto;
+			margin: 10px auto 30px;
+			padding-left: 0;
+			padding-right: 0;
+			width: 100%;
+		}
+		
 	
+		
+		.introduction {
+			font-size: 17px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		
+		form {
+			
+			padding: 25px;
+			
+			.explain {
+				font-size: 19px;
+			}
+		}
+	}
 	
 	
 		
