@@ -51,28 +51,28 @@
     font-weight: 900;
     text-decoration: underline;
     display: inline-block; }
-  .find_page form {
+  .find_page .find_form {
     background: #f96643;
     padding: 50px; }
-    .find_page form .explain {
+    .find_page .find_form .explain {
       font-size: 25px;
       line-height: 1.2;
       margin-bottom: 25px; }
-    .find_page form input {
+    .find_page .find_form input {
       border: none;
       height: 44px;
       padding: 9px;
       margin-bottom: 20px; }
-    .find_page form input[type="text"] {
+    .find_page .find_form input[type="text"] {
       backface: black;
       margin-right: 5px;
       color: black;
       font-size: 17px;
       width: calc(100% - 80px);
       vertical-align: text-bottom; }
-    .find_page form input[type="text"]:focus {
+    .find_page .find_form input[type="text"]:focus {
       background: #ffde19; }
-    .find_page form input[type="submit"] {
+    .find_page .find_form input[type="submit"] {
       background: #ffde19;
       font-family: "Tungsten A", "Tungsten B";
       color: black;
@@ -80,7 +80,7 @@
       line-height: .7;
       vertical-align: text-bottom;
       cursor: pointer; }
-    .find_page form input[type="submit"]:hover {
+    .find_page .find_form input[type="submit"]:hover {
       color: white;
       background: black; }
   .find_page .desktop nav {
@@ -131,7 +131,8 @@
     font-weight: 900;
     font-style: italic;
     margin-bottom: 5px;
-    font-size: 45px; }
+    font-size: 45px;
+    color: black; }
   .popup form input[type="text"] {
     background: white;
     color: black;

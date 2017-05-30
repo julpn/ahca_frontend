@@ -154,7 +154,7 @@ $salmon: #f96643;
 	}
 	
 	
-	form {
+	.find_form {
 		background: $salmon;
 		padding: 50px;
 	
@@ -278,6 +278,7 @@ $salmon: #f96643;
 			font-style: italic;
 			margin-bottom: 5px;
 			font-size: 45px;
+			color: black;
 		}
 		
 		input[type="text"] {
