@@ -7,9 +7,9 @@
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
-	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/611818/7672372/css/fonts.css" />
-	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,900,900i" rel="stylesheet"> 
+	
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/611818/7672372/css/fonts.css" />
 	
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 	
@@ -136,7 +136,7 @@
 					<div class="label">
 						
 						<p>Avg. premium with pre-existing condition</p>
-						<img src="images/icon-coverage_loss.png" />
+						<img src="images/icon-cost.png" />
 						
 					</div>
 	
@@ -145,11 +145,14 @@
 					<div class="number" data-text="5,455">
 						5,455
 					</div>
+				
 					
-	
 	
 				</div>
 				<!-- cost stat area END-->
+				
+				
+				<div class="citation"><a href="#methodology">*Read more about the methodology behind the statistics</a></div>
 				
 			</div>
 			<!-- stats wrapper start -->
@@ -202,6 +205,30 @@
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt u</p>
 				
 			</div>	
+			
+			<a name="methodology"></a>
+			<div class="methodology testimonial written">
+				
+				<div class="title">Methodology</div>
+				
+				
+				
+				<p><span class="subtitle">Deaths: </span>Based on the <a href="https://www.cbo.gov/system/files/115th-congress-2017-2018/costestimate/hr1628aspassed.pdf">CBO report</a>, <a href="https://www.americanprogress.org/issues/healthcare/news/2017/05/25/433017/cbo-derived-coverage-losses-state-congressional-district/">Center for American Progress analysis</a>, and a <a href="http://annals.org/aim/article/1867050/changes-mortality-after-massachusetts-health-care-reform-quasi-experimental-study">2014 Annals of Internal Medicine study</a> linking insurance rates to death rates.</p>
+				
+				<p>Also an <a href="https://www.vice.com/en_us/article/how-many-people-will-die-if-republicans-pass-trumpcare">article from Vice</a> summing up some of the research.</p>
+
+				
+				
+				<p><span class="subtitle">Insurance loss:</span>Based on analysis of the <a href="https://www.cbo.gov/system/files/115th-congress-2017-2018/costestimate/hr1628aspassed.pdf">CBO report</a> from the <a href="https://www.americanprogress.org/issues/healthcare/news/2017/05/25/433017/cbo-derived-coverage-losses-state-congressional-district/">Center for American Progress</a>.</p>
+				
+				
+				
+				<p><span  class="subtitle">Premium increase:</span>Based on <a href="http://blog.aarp.org/2017/05/25/stability-fund-wont-keep-premiums-from-going-through-the-roof-for-people-with-preexisting-conditions/">analysis from the AARP</a>.</p>
+				
+				
+			</div>
+				
+				
 
 			
 		</div></div>
@@ -221,6 +248,9 @@
 		<img src="images/close_button.png" alt="close_button" class="close_button">
 		
 		<a href="https://www.facebook.com/sharer/sharer.php?u=http://jasonchaffetz.killsconstituents.com"><div class="button">Share on Facebook</div></a>
+		
+		<br/>
+		
 		<a href="https://twitter.com/home?status=Congressman%20%40jasonchaffetz%20voted%20to%20kill%20498%20of%20his%20constituents%20by%202026%2C%20by%20repealing%20%23ACA%20(according%20to%20%40USCBO)%20pic.twitter.com/4gwVgJUG0i"><div class="button">Share on Twitter</div></a>
 		
 		<form>
